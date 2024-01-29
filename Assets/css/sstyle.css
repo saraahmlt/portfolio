@@ -1,0 +1,102 @@
+
+nav {
+    height: 100px;
+    background: #c0dfef;
+    color: white;
+    font-family: arial, sans-serif;
+  
+}
+
+.Logoo {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+
+.Naavv {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+#LIENN {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+}
+
+#langages {
+    margin-left: 40px;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+.oiseau {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+#Langages {
+    background-color: white;
+    opacity: 50%;
+    position: absolute;
+    top: 200px;
+    left: 280px;
+    text-align: center;
+    padding: 125px 150px 125px 150px;
+    font-family: PT sans Narrow;
+    font-size: 35px;
+    color: lightskyblue;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: Single Day;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #LIENN {
+        display: flex;
+    }
+
+    .Naavv {
+        display: flex;
+        position: absolute;
+        top: -10px;
+        left: 32px;
+        padding: 15px;
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .Naavv.active #LIENN {
+        margin: 5px 0;
+    }
+
+    #langages {
+        text-align: center;
+        font-family: Bebas Neue;
+        font-size: 40px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #Langages {
+        font-size: 1.5em;
+        width: 20px;
+        padding: 150px 290px 150px 60px;
+        margin-left: -200px;
+        top: 155px;
+    }
+
+    .oiseau {
+        max-width: 768px;
+    }
+
+}

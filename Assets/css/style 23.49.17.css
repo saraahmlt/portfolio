@@ -1,0 +1,131 @@
+nav {
+    height: 100px;
+    background: #c0dfef;
+    color: white;
+    font-family: arial, sans-serif;
+  
+}
+
+.Logo {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.Navv {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+#Lien {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+}
+
+
+#contact {
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+#contactezmoi {
+    background-color: white;
+    opacity: 50%;
+    position: absolute;
+    top: 200px;
+    left: 330px;
+    text-align: center;
+    padding: 125px 310px 125px 310px;
+    font-family: PT sans Narrow;
+    font-size: 35px;
+    color: lightskyblue;
+    font-weight: 900;
+}
+
+
+.mer {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.card {
+    width: 400px;
+    text-align: center;
+    font-family: Single Day;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+#myForm {
+    border: #c0dfef 3px solid;
+    background-color: #c0dfef;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.btn-btn-primary {
+    background-color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+p {
+    font-family: Single Day;
+    font-size: 20px;
+}
+
+form {
+    font-family: Single Day;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    #Lien {
+        display: flex;
+    }
+
+    .Navv {
+        display: flex;
+        position: absolute;
+        top: -10px;
+        left: 32px;
+        padding: 15px;
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .Navv.active #Lien {
+        margin: 5px 0;
+    }
+
+    #contact {
+        text-align: center;
+        font-family: Bebas Neue;
+        font-size: 40px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #contactezmoi {
+        font-size: 1.5em;
+        width: 20px;
+        padding: 150px 230px 150px 120px;
+        margin-left: -250px;
+        top: 155px;
+    }
+
+    .mer {
+        max-width: 768px;
+    }
+
+}

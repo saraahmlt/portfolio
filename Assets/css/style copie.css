@@ -1,0 +1,108 @@
+
+nav {
+    height: 100px;
+    background: #c0dfef;
+    color: white;
+    font-family: arial, sans-serif; 
+}
+
+.logo {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.Nav {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+#lien {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+}
+
+.plage {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+#projets {
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+
+#mes-projets {
+    background-color: white;
+    opacity: 50%;
+    position: absolute;
+    top: 200px;
+    left: 330px;
+    text-align: center;
+    padding: 125px 310px 125px 310px;
+    font-family: PT sans Narrow;
+    font-size: 35px;
+    color: lightskyblue;
+    font-weight: 900;
+}
+
+h2 {
+  padding: 125px 310px 125px 310px;
+}
+
+.card-group {
+    border: solid 10px #c0dfef;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-family: Single Day;
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 768px) {
+    #lien {
+        display: flex;
+    }
+
+    .Nav {
+        display: flex;
+        position: absolute;
+        top: -10px;
+        left: 32px;
+        padding: 15px;
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .Nav.active #lien {
+        margin: 5px 0;
+    }
+
+    #projets {
+        text-align: center;
+        font-family: Bebas Neue;
+        font-size: 40px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #mes-projets {
+        font-size: 1.5em;
+        width: 20px;
+        padding: 150px 230px 150px 150px;
+        margin-left: -270px;
+        top: 155px;
+    }
+
+    .plage {
+        max-width: 768px;
+    }
+
+}
